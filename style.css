@@ -232,9 +232,9 @@ ul {
     .WelcomeText {
         font-size: 140px;
         color: white;
-        margin-left: 35%;
         margin-top: 10%;
         font-family: 'Cormorant Garamond', serif;
+        text-align: center;
     }
     .backtree {
         width: 300px;
@@ -343,9 +343,11 @@ ul {
     .WelcomeText {
         font-size: 140px;
         color: white;
-        margin-left: 39%;
+        margin-left: 20%;
         margin-top: 10%;
+        width: 1500px;
         font-family: 'Cormorant Garamond', serif;
+        text-align: center;
     }
     .backtree {
         width: 300px;
