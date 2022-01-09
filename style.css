@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background: url(back.png);
     background-repeat: repeat;
+    background:linear-gradient(rgba(39, 39, 39, 0.5), rgba(37, 37, 37, 0.5)), url(back.png);
 }
 
 /* rgb(84, 88, 199); */
@@ -158,14 +159,19 @@ body {
     #desktopnav {
         display: flex;
         margin: 0;
-        background-color: #fff;
-        border-bottom: 10px solid black;
+        background-color: rgb(69, 77, 0);
+        border-bottom: 10px solid rgb(89, 116, 0);
     }
 
     .text1 {
         margin-top: 30px;
         margin-left: 30px;
         font-size: 30px;
+        color: white;
+    }
+
+    .text {
+        color: white;
     }
 
     .navoptions button {
@@ -211,6 +217,7 @@ body {
     .backtree {
         width: 300px;
         margin-left: 43.5%;
+        -webkit-filter: brightness(70%);
     }
 
     .downloadpart {
@@ -221,12 +228,12 @@ body {
     }
 
     .aboutmepart {
-        color: black;
+        color: white;
         font-size: 90px;
         text-align: center;
         margin-top: 100px;
         width: 1500px;
-        background-color: white;
+        background-color: rgb(75, 88, 0);
         margin-left: 19%;
         box-shadow: 0 30px 30px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
