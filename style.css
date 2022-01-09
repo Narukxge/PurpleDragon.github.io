@@ -1,10 +1,10 @@
 body {
     font-family: 'Cormorant Garamond', serif;
-    background: url(back.png);
-    background-repeat: repeat;
-    background:linear-gradient(rgba(39, 39, 39, 0.5), rgba(37, 37, 37, 0.5)), url(back.png);
+    background:linear-gradient(rgba(39, 39, 39, 0.5), rgba(37, 37, 37, 0.5)), url(back1.png);
 }
-
+ul {
+    text-decoration: none;
+}
 /* rgb(84, 88, 199); */
 @media only screen and (max-width: 1000px) {
     li a {
@@ -15,9 +15,10 @@ body {
     
     .mobilenav {
         display: flex;
-        background-color: white;
+        background-color: rgb(69, 77, 0);
         width: 130%;
-        border-bottom: 35px solid black;
+        border-bottom: 20px solid rgb(89, 116, 0);
+        color: white;
     }
     .mobilenav img {
         width: 100px;
@@ -44,10 +45,20 @@ body {
         display: flex;
         list-style-type: none;
         flex-direction: column;
-     /*  margin-left: 42%; */
         width: 125.5%;
         text-align: center;
+        font-weight: 500;
+        
     }
+
+    #ul1 li {
+        margin-top: 190px;
+        background-color: rgb(89, 116, 0);;
+        border: 10px solid rgb(69, 77, 0);
+        border-collapse: collapse;
+    }
+
+    
 
     i {
         margin-left: 40px;
@@ -62,7 +73,6 @@ body {
         top: 50%;
         left: 50%;
         transform: translate(-0%, -170%);
-        font-weight: 600;
         margin-bottom: -150px;
     }
 
@@ -95,24 +105,24 @@ body {
     }
 
 
-    .aboutmepart {
-       
-    }
+    
     .aboutmepart i{
         font-size: 150px;
         margin-left: 58%;
+        color: rgb(69, 77, 0);
+        color: white;
     }
     .aboutmepart p {
         font-size: 70px;
-        color: black;
+        color: white;
         font-size: 90px;
         text-align: center;
         margin-top: 100px;
         width: 800px;
-        background-color: white;
+        background-color: rgb(69, 77, 0);
         margin-left: 19%;
         padding: 40px;
-        border: 8px solid black;
+        border: 20px solid rgb(89, 116, 0);
     }
     
     .btn img {
@@ -125,24 +135,41 @@ body {
     }
     
     .WelcomeText {
-        font-size: 150px;
-        font-weight: 800;
-        margin-left: 31%;
+        font-size: 180px;
+        margin-left: 30%;
         margin-top: 15px;
         color: white;
         
     }
 
     .backtree {
-        margin-left: 50%;
+        margin-left: 92%;
+        filter: brightness(70%);
+    }
+    .backtree1 {
+        margin-left: 12%;
+        filter: brightness(70%);
+        margin-bottom: -500px;
+    }
+    .backtree2 {
+        margin-left: 2%;
+        filter: brightness(70%);
+    }
+    .backtree3 {
+        margin-left: 89%;
+        filter: brightness(70%);
+        margin-top: 400px;
     }
 
 
     
 }
 
-@media only screen and (max-width: 1920px) {
+@media only screen and (min-width: 1020px) {
 
+    body {
+        background:linear-gradient(rgba(39, 39, 39, 0.5), rgba(37, 37, 37, 0.5)), url(back2.png);
+    }
     .mobilenav {
         display: none;
 
@@ -174,10 +201,6 @@ body {
         color: white;
     }
 
-    .navoptions button {
-        width: 250px;
-        margin-top: -15px;
-    }
 
     .navoptions {
         display: flex;
@@ -186,28 +209,23 @@ body {
     }
     .navoptions a {
         text-decoration: none;
+        text-align: center;
         color: white;
         font-size: 25px;
-        font-weight: 600;
-    }
-    
-    button {
-        
+        margin-top: -50px;
         background-color: rgb(88, 104, 0);
         border: none;
         margin-left: 20px;
         width: 800px;
-        height: 70px;
-        background-repeat: no-repeat;
+        height: 30px;
         background-size: 300px;
-        font-family: 'Cormorant Garamond', serif;
         border-radius: 10px;
+        margin-top: -20px;
+        padding: 20px;
     }
-    
 
-    button:hover {
-        -webkit-filter: brightness(70%);
-        transform: scale(1.1, 1.1);
+    .navoptions a:hover {
+        background-color: rgb(61, 71, 0);
     }
     
     .WelcomeText {
@@ -257,6 +275,9 @@ body {
 
 
 @media only screen and (min-width: 1921px) {
+    body {
+        background:linear-gradient(rgba(39, 39, 39, 0.5), rgba(37, 37, 37, 0.5)), url(back1.png);
+    }
 
     .mobilenav {
         display: none;
@@ -289,10 +310,6 @@ body {
         color: white;
     }
 
-    .navoptions button {
-        width: 250px;
-        margin-top: -15px;
-    }
 
     .navoptions {
         display: flex;
@@ -301,30 +318,26 @@ body {
     }
     .navoptions a {
         text-decoration: none;
+        text-align: center;
         color: white;
         font-size: 25px;
-        font-weight: 600;
-    }
-    
-    button {
-        
+        margin-top: -50px;
         background-color: rgb(88, 104, 0);
         border: none;
         margin-left: 20px;
         width: 800px;
-        height: 70px;
-        background-repeat: no-repeat;
+        height: 30px;
         background-size: 300px;
-        font-family: 'Cormorant Garamond', serif;
         border-radius: 10px;
+        margin-top: -20px;
+        padding: 20px;
     }
-    
 
-    button:hover {
-        -webkit-filter: brightness(70%);
-        transform: scale(1.1, 1.1);
+    .navoptions a:hover {
+        background-color: rgb(61, 71, 0);
     }
-    
+
+
     .WelcomeText {
         font-size: 140px;
         color: white;
